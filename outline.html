@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+      }
+    </style>
+  </head>
+  <body>
+    <h6>привет я h6 без вложенностей</h6>
+
+    <img src="./img/chapter-0.png" alt="визуальная часть раздел-0" />
+
+    <h1>хай, я h1 раздел-1</h1>
+    <h2>хай, я h2 раздел-1</h2>
+    <h3>хай, я h3 раздел-1</h3>
+    <h4>хай, я h4 раздел-1</h4>
+
+    <img src="./img/chapter-1.png" alt="визуальная часть раздел-1" />
+
+    <h1>хай, я h1 раздел-2, каждый дочерний элемент обернутый в section</h1>
+    <section>
+      <h2>хай, я h2 раздел-2</h2>
+      <section>
+        <h3>хай, я h3 раздел-2</h3>
+        <section>
+          <h4>хай, я h4 раздел-2</h4>
+        </section>
+      </section>
+    </section>
+
+    <img src="./img/chapter-2.png" alt="визуальная часть раздел-2" />
+
+    <h1>хай, я h1 раздел-3</h1>
+    <section>
+      <h3>хай, я h3 раздел-3, внутри тега h1</h3>
+      <section>
+        <h6>хай, я h6 раздел-3, внутри тега h3</h6>
+      </section>
+    </section>
+
+    <img src="./img/chapter-3.png" alt="визуальная часть раздел-3" />
+
+    <h1>хай, я h1 раздел-4</h1>
+    <section>
+      <h3>хай, я h3 раздел-4, внутри тега h1</h3>
+      <section>
+        <h6>хай, я h6 раздел-4, внутри тега h3</h6>
+        <section><h1>хай, я h1 раздел-4 внутри элемента h6</h1></section>
+      </section>
+    </section>
+
+    <img src="./img/chapter-4.png" alt="визуальная часть раздел-4" />
+
+    <h1>хай, я h1 раздел-5</h1>
+    <section>
+      <h2>хай, я h2 раздел-5</h2>
+      <ul>
+        <li>
+          <h3>я элемент item-1 h3 списка группы h2</h3>
+          <p>asd</p>
+        </li>
+        <li>
+          <h3>я элемент item-3 h3 списка группы h2</h3>
+          <p>asd</p>
+        </li>
+        <li>
+          <h3>я элемент item-3 h3 списка группы h2</h3>
+          <p>asd</p>
+        </li>
+        <li><h4>я элемент item-4 h4 списка группы h2</h4></li>
+        <li><h6>я элемент item-5 h4 списка группы h6</h6></li>
+      </ul>
+      <h3>я элемент h3 не являюсь дочерним тега ul</h3>
+    </section>
+
+    <img src="./img/chapter-5.png" alt="визуальная часть раздел-5" />
+
+    <article>
+      <h6>привет я h6 без вложенностей в article раздел-6</h6>
+      <section>
+        <h6>привет я h6 вложен в секцию h6</h6>
+      </section>
+    </article>
+
+    <img src="./img/chapter-6.png" alt="визуальная часть раздел-6" />
+
+    <p>вариант - 1</p>
+    <section>
+      <h1>хай, я h1 раздел-7</h1>
+      <h6>h6 раздел-7</h6>
+      <h5>h5 раздел-7</h5>
+      <h4>h4 раздел-7</h4>
+      <h3>h3 раздел-7</h3>
+      <h2>h2 раздел-7</h2>
+      <h1>h1 раздел-7</h1>
+    </section>
+
+    <img src="./img/chapter-7-1.png" alt="визуальная часть раздел-7-1" />
+
+    <p>вариант - 2</p>
+    <section>
+      <h1>хай, я h1 раздел-7</h1>
+      <section>
+        <h6>h6 раздел-7</h6>
+        <section>
+          <h5>h5 раздел-7</h5>
+          <section>
+            <h4>h4 раздел-7</h4>
+            <section>
+              <h3>h3 раздел-7</h3>
+              <section>
+                <h2>h2 раздел-7</h2>
+                <section>
+                  <h1>h1 раздел-7</h1>
+                </section>
+              </section>
+            </section>
+          </section>
+        </section>
+      </section>
+    </section>
+
+    <img src="./img/chapter-7-2.png" alt="визуальная часть раздел-7-2" />
+  </body>
+</html>
